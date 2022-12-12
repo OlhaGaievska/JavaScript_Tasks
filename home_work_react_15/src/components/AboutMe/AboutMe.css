@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@1&family=Abel&display=swap');
+
+*{  
+    font-family: 'Abel', sans-serif;
+    padding: 0;
+    margin: 0;
+    border: 0;      
+}
+
+h1,h2,h3,h4,h5{
+    font-size: 100%;
+    font-weight: normal;
+}
+
+:root{
+    --silver-color:rgba(130, 130, 130, 1);
+    --light-silver: rgba(246, 246, 246, 1);
+     
+}
+
+.margin_width{
+    width: 65%;
+    margin: 0 auto;
+}
+
+.aboutMe{
+    margin-top: 2em;
+    padding: 4em 0;    
+    background-color: var(--light-silver);
+}
+
+.aboutMe_h2{
+    margin: 1em 0;
+    font-size: 34px;
+    text-align: center;
+}
+
+.aboutMe_p{
+    width: 60%;
+    margin: 2em auto;
+    font-size: 18px;
+    text-align: center;
+}

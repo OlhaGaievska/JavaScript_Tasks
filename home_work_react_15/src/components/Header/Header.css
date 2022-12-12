@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@1&family=Abel&display=swap');
+
+*{  
+    font-family: 'Abel', sans-serif;
+    padding: 0;
+    margin: 0;
+    border: 0;      
+}
+
+h1,h2,h3,h4,h5{
+    font-size: 100%;
+    font-weight: normal;
+} 
+
+:root{
+    --silver-color:rgba(130, 130, 130, 1);
+    --light-silver: rgba(246, 246, 246, 1);
+     
+}
+
+.margin_width{
+    width: 65%;
+    margin: 0 auto;
+}
+
+.profole_img_media{
+    display: none;
+}
+
+.header_nav{    
+    display: flex;
+    justify-content: center;    
+}
+
+.header_ul{
+    width: 100%;
+    margin: 2em 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.header_hr{
+    border-top: 1px solid var(--silver-color);
+}
+.profole_info{
+    margin: 2em 0em;
+    display: flex;   
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.profole_info_text{
+    width: 30%;
+}
+
+.profole_info_name{
+    font-size: 48px;
+}
+
+.profole_info_about{
+    font-size: 18px;
+}
+
+.header_bottom_img{
+    margin-bottom: 3em;
+    display: flex;
+    justify-content: center;   
+}
+
+.profole_info_ru_eng{
+    transform: rotate(-90deg);
+    font-size: 18px;
+}
+
+.profole_hr{
+    
+    margin: 0.5em auto auto auto;
+    width: 60%;    
+    border-top: 1px solid var(--silver-color);
+}
+
+.ru{
+    color: var(--silver-color);
+}

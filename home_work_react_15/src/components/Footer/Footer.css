@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@1&family=Abel&display=swap');
+
+*{  
+    font-family: 'Abel', sans-serif;
+    padding: 0;
+    margin: 0;
+    border: 0;      
+}
+
+h1,h2,h3,h4,h5{
+    font-size: 100%;
+    font-weight: normal;
+} 
+
+:root{
+    --silver-color:rgba(130, 130, 130, 1);
+    --light-silver: rgba(246, 246, 246, 1);
+     
+}
+
+.margin_width{
+    width: 65%;
+    margin: 0 auto;
+}
+
+.footer_main{
+    background-color: var(--light-silver);
+}
+
+.footer_main_block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer_h2{
+    font-size: 34px;
+    margin-top: 4em;
+    margin-bottom: 1em;
+}
+
+.footer_text{
+    font-size: 18px;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.footer_logos_block{
+    width: 40%;
+    margin: auto;
+    margin-top: 6em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_text_small{
+    font-size: 14px;
+    margin: 4em 0;
+    color: var(--silver-color);
+    text-align: center;
+}
+
+button {
+    background-color: black;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;    
+    font-size: 18px;
+}

@@ -1,0 +1,11 @@
+@media (max-width: 768px) {
+    .footer_logos_block{
+        width: 60%;        
+    }
+}
+
+@media (max-width: 425px) {
+    .footer_logos_block{
+        width: 90%;        
+    }
+}
