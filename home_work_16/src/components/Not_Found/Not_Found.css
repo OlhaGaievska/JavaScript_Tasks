@@ -1,0 +1,12 @@
+.not_found_box{
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.not_found{
+    text-align: center;
+    font-size: 38px; 
+}
