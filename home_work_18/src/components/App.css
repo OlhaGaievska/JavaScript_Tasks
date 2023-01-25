@@ -1,0 +1,7 @@
+.goods{
+    display: flex;
+    width: 15%;
+    justify-content: space-around;    
+    align-items: center;
+    flex-direction: row;
+}
